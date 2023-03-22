@@ -1,0 +1,6 @@
+{
+    "plugins": ["moment"],
+    "rules": {
+      "moment/no-moment": "error"
+    }
+  }
