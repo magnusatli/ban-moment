@@ -20,7 +20,7 @@ jobs:
           name: code-coverage-report
           path: coverage/*
   publish-gpr:
-    needs: Test-build
+    needs: test
     runs-on: ubuntu-latest
     permissions:
       contents: read
